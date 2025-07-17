@@ -1,0 +1,26 @@
+@charset "UTF-8";
+/* 
+#FCF7DE
+#FACE0A
+#CCB44B
+#0808CD
+#181854
+#18182C
+*/
+
+:root{
+    --cor1:#FCF7DE;
+    --cor2:#FACE0A;
+    --cor3:#CCB44B;
+    --cor4:#0808CD;
+    --cor5:#181854;
+    --cor6:#18182C;
+
+
+}
+body{
+    background-color:#6161c2;
+}
+header{
+    background-image: linear-gradient(to bottom #18182C, #0808CD);
+}

@@ -1,0 +1,38 @@
+Claro! Aqui está um artigo sobre uma curiosidade interessante do mundo da tecnologia: **o surgimento do primeiro bug da computação**.
+
+---
+
+## 🐞 A Origem do Primeiro "Bug" da Computação
+
+### Você sabia que o termo “bug” em tecnologia vem de um inseto de verdade?
+
+Hoje, é comum ouvirmos a palavra “bug” quando um programa apresenta algum erro. Mas o que muita gente não sabe é que o primeiro "bug" da história da computação foi literalmente... um inseto.
+
+### A história
+
+Em 9 de setembro de 1947, engenheiros da Marinha dos EUA trabalhavam no computador **Harvard Mark II**, um dos primeiros computadores eletromecânicos. Durante testes, o equipamento começou a apresentar falhas inesperadas.
+
+Ao investigar, os técnicos encontraram um pequeno **inseto preso entre os relés** (dispositivos que controlavam o fluxo de corrente elétrica), o que estava impedindo o funcionamento correto do sistema. O inseto – uma mariposa – foi cuidadosamente removido e colado no diário de bordo da equipe, com a anotação:
+
+> "First actual case of bug being found."
+> (Primeiro caso real de um bug encontrado.)
+
+A imagem do registro se tornou famosa e é até hoje uma peça histórica preservada no Museu de História da Computação, nos EUA.
+
+### O termo já existia antes?
+
+Sim, a palavra "bug" já era usada informalmente entre engenheiros para se referir a falhas técnicas, desde o século 19. Thomas Edison, por exemplo, usava o termo em seus diários. Mas foi esse episódio de 1947 que popularizou seu uso no mundo da computação.
+
+### De inseto real a problema digital
+
+Desde então, “bug” se tornou um dos termos mais usados na área de tecnologia. É usado para descrever qualquer tipo de falha, erro ou comportamento inesperado em sistemas, programas e dispositivos.
+
+Hoje, com bilhões de linhas de código rodando em computadores, smartphones e servidores ao redor do mundo, detectar e corrigir bugs é uma das tarefas mais importantes da engenharia de software.
+
+---
+
+### Conclusão
+
+O que começou como um problema causado por um inseto de verdade virou parte do vocabulário diário dos desenvolvedores. É uma curiosidade que mostra como até pequenos detalhes – literalmente! – podem marcar a história da tecnologia.
+
+Se quiser, posso transformar esse artigo em um post para redes sociais ou blog. Deseja isso?

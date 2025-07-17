@@ -1,0 +1,29 @@
+body{
+            background-color: black
+        }
+
+        h1{
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+            color: #ffffff;
+        }
+
+        h2{
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+            color: #ffffff;
+        }
+
+        p{
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+            
+            font-style: normal;
+            color: rgb(204, 204, 204);
+            text-align: justify;
+        }
+        ul{
+            color: rgb(204, 204, 204)
+        }
+        img {
+            background-color: grey;
+        }
