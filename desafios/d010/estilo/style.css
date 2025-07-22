@@ -79,7 +79,7 @@ nav > a:hover{
     color: var(--cor0);
 }
 main{
-    min-width: 280px;
+    min-width: 180px;
     max-width: 1000px;
     margin: auto;
     margin-bottom: 30px;
