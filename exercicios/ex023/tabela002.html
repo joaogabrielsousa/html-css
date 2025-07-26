@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>uso de tabelas grandes</title>
+    <!-- estilos-->
+     <style>
+        body{
+            background: black;
+            color: white;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        table{
+            width: 500px;
+            border-collapse: collapse;
+            position: relative;
+        }
+        caption{
+            font-size: 1.1em;
+            font-weight: bold;
+            padding: 10px;
+            background-color: transparent;
+        }
+        td, th{
+            border: 1px solid ;
+            padding: 10px;
+        }
+        td:hover, th:hover{
+            background-color: rgb(0, 0, 54);
+            transition: .5s;
+        }
+        thead, tfoot{
+            background-color: rgb(54, 54, 54);
+            color: white;
+        }
+        thead>tr>th{
+            position: sticky;
+            top: 0;
+            background-color: rgb(54, 54, 54);
+        }
+        tbody > tr:nth-child(odd){
+            background-color: white;
+            color: black;
+        }
+        tbody > tr:nth-child(even){
+            background-color: grey;
+            color: black;
+        }
+        td.number{
+            text-align: right;
+        }
+     </style>
+</head>
+<body>
+    <!--
+    ANATOMIA PARA TABELAS GRANDES
+    TABLE
+        CAPTION
+        THEAD
+            TR,TD,TH
+        TBODY
+            TR,TD,TH
+        TFOOT
+            TR,TD,TH
+
+    -->
+
+    <table>
+        <caption>População das Unidades Federativas</caption>
+        <thead>
+            <th scope="col">Estado</th>
+            <th scope="col" style="width: 100px;">População</th>
+
+        </thead>
+        <tbody>
+            <tr>
+                <td>São Paulo</td>
+                <td class="number">45 919 049</td>
+            </tr>
+            <tr>
+                <td>Minas Gerais</td>
+                <td class="number">21 168 791</td>
+            </tr>
+            <tr>
+                <td>Rio de Janeiro</td>
+                <td class="number">17 264 943</td>
+            </tr>
+            <tr>
+                <td>Bahia</td>
+                <td class="number">14 850 513	</td>
+            </tr>
+            <tr>
+                <td>Paraná</td>
+                <td class="number">11 824 665</td>
+            </tr>
+            <tr>
+                <td>Rio Grande do Sul</td>
+                <td class="number">11 229 915</td>
+            </tr>
+            <tr>
+                <td>Pernambuco</td>
+                <td class="number">9 539 029</td>
+            </tr>
+            <tr>
+                <td>Ceará</td>
+                <td class="number">9 233 656</td>
+            </tr>
+            <tr>
+                <td>Pará</td>
+                <td class="number">8 664 306</td>
+            </tr>
+            <tr>
+                <td>Santa Catarina</td>
+                <td class="number">8 058 441</td>
+            </tr>
+            <tr>
+                <td>Goiás</td>
+                <td class="number">7 350 483</td>
+            </tr>
+            <tr>
+                <td>Maranhão</td>
+                <td class="number">7 010 960</td>
+            </tr>
+            <tr>
+                <td>Amazonas</td>
+                <td class="number">4 281 209</td>
+            </tr>
+            <tr>
+                <td>Paríba</td>
+                <td class="number">4 145 040</td>
+            </tr>
+            <tr>
+                <td>Espírito Santo</td>
+                <td class="number">4 102 129</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <th scope="row">Total de Habitantes</th>
+                <td class="number"><strong>184 643 129</strong></td>
+            </tr>
+        </tfoot>
+    </table>
+
+    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nisi placeat modi aliquam culpa excepturi cum ut aut distinctio aspernatur! Ex error similique facilis magni ipsa deleniti blanditiis perspiciatis voluptatum laudantium! Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi assumenda ullam culpa deleniti facere sunt modi. Amet quos fugiat ullam nam, assumenda eius quia inventore reprehenderit molestias cupiditate possimus itaque. Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum eveniet dignissimos possimus maiores officia fugiat magnam ullam numquam rerum ut. Animi, nobis cupiditate laboriosam provident ad debitis quisquam praesentium vero! Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur unde exercitationem, assumenda velit modi illum vel eos adipisci laudantium, tempora quaerat repellat mollitia sunt rerum. Sed ea a voluptatum dolorum? Lorem ipsum dolor sit amet, consectetur adipisicing elit. Et delectus praesentium cupiditate sequi nulla, consequuntur provident blanditiis voluptatem quo voluptates ea saepe nemo quasi soluta dicta odit, voluptate aspernatur sint?</p>
+    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nisi placeat modi aliquam culpa excepturi cum ut aut distinctio aspernatur! Ex error similique facilis magni ipsa deleniti blanditiis perspiciatis voluptatum laudantium! Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi assumenda ullam culpa deleniti facere sunt modi. Amet quos fugiat ullam nam, assumenda eius quia inventore reprehenderit molestias cupiditate possimus itaque. Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum eveniet dignissimos possimus maiores officia fugiat magnam ullam numquam rerum ut. Animi, nobis cupiditate laboriosam provident ad debitis quisquam praesentium vero! Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur unde exercitationem, assumenda velit modi illum vel eos adipisci laudantium, tempora quaerat repellat mollitia sunt rerum. Sed ea a voluptatum dolorum? Lorem ipsum dolor sit amet, consectetur adipisicing elit. Et delectus praesentium cupiditate sequi nulla, consequuntur provident blanditiis voluptatem quo voluptates ea saepe nemo quasi soluta dicta odit, voluptate aspernatur sint?</p>
+    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nisi placeat modi aliquam culpa excepturi cum ut aut distinctio aspernatur! Ex error similique facilis magni ipsa deleniti blanditiis perspiciatis voluptatum laudantium! Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi assumenda ullam culpa deleniti facere sunt modi. Amet quos fugiat ullam nam, assumenda eius quia inventore reprehenderit molestias cupiditate possimus itaque. Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum eveniet dignissimos possimus maiores officia fugiat magnam ullam numquam rerum ut. Animi, nobis cupiditate laboriosam provident ad debitis quisquam praesentium vero! Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur unde exercitationem, assumenda velit modi illum vel eos adipisci laudantium, tempora quaerat repellat mollitia sunt rerum. Sed ea a voluptatum dolorum? Lorem ipsum dolor sit amet, consectetur adipisicing elit. Et delectus praesentium cupiditate sequi nulla, consequuntur provident blanditiis voluptatem quo voluptates ea saepe nemo quasi soluta dicta odit, voluptate aspernatur sint?</p>
+    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nisi placeat modi aliquam culpa excepturi cum ut aut distinctio aspernatur! Ex error similique facilis magni ipsa deleniti blanditiis perspiciatis voluptatum laudantium! Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi assumenda ullam culpa deleniti facere sunt modi. Amet quos fugiat ullam nam, assumenda eius quia inventore reprehenderit molestias cupiditate possimus itaque. Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum eveniet dignissimos possimus maiores officia fugiat magnam ullam numquam rerum ut. Animi, nobis cupiditate laboriosam provident ad debitis quisquam praesentium vero! Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur unde exercitationem, assumenda velit modi illum vel eos adipisci laudantium, tempora quaerat repellat mollitia sunt rerum. Sed ea a voluptatum dolorum? Lorem ipsum dolor sit amet, consectetur adipisicing elit. Et delectus praesentium cupiditate sequi nulla, consequuntur provident blanditiis voluptatem quo voluptates ea saepe nemo quasi soluta dicta odit, voluptate aspernatur sint?</p>
+    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nisi placeat modi aliquam culpa excepturi cum ut aut distinctio aspernatur! Ex error similique facilis magni ipsa deleniti blanditiis perspiciatis voluptatum laudantium! Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi assumenda ullam culpa deleniti facere sunt modi. Amet quos fugiat ullam nam, assumenda eius quia inventore reprehenderit molestias cupiditate possimus itaque. Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum eveniet dignissimos possimus maiores officia fugiat magnam ullam numquam rerum ut. Animi, nobis cupiditate laboriosam provident ad debitis quisquam praesentium vero! Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur unde exercitationem, assumenda velit modi illum vel eos adipisci laudantium, tempora quaerat repellat mollitia sunt rerum. Sed ea a voluptatum dolorum? Lorem ipsum dolor sit amet, consectetur adipisicing elit. Et delectus praesentium cupiditate sequi nulla, consequuntur provident blanditiis voluptatem quo voluptates ea saepe nemo quasi soluta dicta odit, voluptate aspernatur sint?</p>
+    
+</body>
+</html>
