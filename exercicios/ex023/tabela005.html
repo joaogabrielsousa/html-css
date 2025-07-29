@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Desafio</title>
+    <title>Exercicios de Tabela</title>
     <style>
         body{
             font-family: Arial, Helvetica, sans-serif;
@@ -11,81 +11,66 @@
         }
         table{
             border-collapse: collapse;
-            width: 500px;
+            
         }
         th,td{
             border: 1px solid black;
             padding: 10px;
-            text-align: center;
-        }
-        tr.cinza{
-            background-color: rgb(63, 63, 63);
-            color: white;
+             text-align: center;
         }
     </style>
 </head>
 <body>
     <table>
-        <caption>
-            <tr class="cinza">
-                <th rowspan="2">Área</th>
-                <th rowspan="2">Disciplina</th>
-                <th colspan="2">Notas</th>
-                <th rowspan="2">Média</th>
-            </tr>
-            <tr class="cinza">
-                <th>Nota 1</th>
-                <th>Nota 2</th>
-            </tr>
-        </caption>
-        <tbody>
+        <colgroup>
+        <col class="cnome">
+        <col class="csexo">
+        <col class="cidade">
+        <col class="cprof">
+        </colgroup>
+        <caption> <strong>Cadastro</strong> </caption>
             <tr>
-                <th rowspan="4">Exatas</th>
-                <td>Matemática</td>
-                <td>0.0</td>
-                <td>0.0</td>
-                <td>0.0</td>
+                <th scope="col">Nome</th>
+                <th scope="col">Sexo</th>
+                <th scope="col">Idade</th>
+                <th scope="col">Profissão</th>
             </tr>
             <tr>
-                <td>Física</td>
-                <td>0.0</td>
-                <td>0.0</td>
-                <td>0.0</td>
+                <td>Ana Maria</td>
+                <td>F</td>
+                <td>25</td>
+                <td>Jornalista</td>
             </tr>
             <tr>
-                <td>Química</td>
-                <td>0.0</td>
-                <td>0.0</td>
-                <td>0.0</td>
+                <td>Ana Maria</td>
+                <td>F</td>
+                <td>25</td>
+                <td>Jornalista</td>
             </tr>
             <tr>
-                <td>Biologia</td>
-                <td>0.0</td>
-                <td>0.0</td>
-                <td>0.0</td>
-            </tr>
-            <tr class="cinza">
-                <th colspan="4">Média de Exatas</th>
-                <td>0.0</td>
+                <td>Ana Maria</td>
+                <td>F</td>
+                <td>25</td>
+                <td>Jornalista</td>
             </tr>
             <tr>
-                <th rowspan="2">Humanas</th>
-                <td>Hitória</td>
-                <td>0.0</td>
-                <td>0.0</td>
-                <td>0.0</td>
+                <td>Ana Maria</td>
+                <td>F</td>
+                <td>25</td>
+                <td>Jornalista</td>
             </tr>
             <tr>
-                <td>Geografia</td>
-                <td>0.0</td>
-                <td>0.0</td>
-                <td>0.0</td>
+                <td>Ana Maria</td>
+                <td>F</td>
+                <td>25</td>
+                <td>Jornalista</td>
             </tr>
-            <tr class="cinza">
-                <th colspan="4">Média de Humanas</th>
-                <td>0.0</td>
+            <tr>
+                <td>Ana Maria</td>
+                <td>F</td>
+                <td>25</td>
+                <td>Jornalista</td>
             </tr>
-        </tbody>
     </table>
 </body>
 </html>
