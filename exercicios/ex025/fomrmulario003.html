@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Teste de Formulario</title>
+</head>
+<body>
+    <h1>Testando o furmlario</h1>
+    <form action="cadastro.php" method="get">
+        <p>
+            <label for="inam">Name:</label>
+            <input type="text" name="inam" id="nam" required >
+        </p>
+        <p>
+            <label for="imedia">Média:</label>
+            <input type="number" name="imedia" id="media" min="0" max="10" placeholder="0 a 10" step="0.1">
+        </p>
+        <p>
+            <label for="ipass">Password:</label>
+            <input type="password" name="ipass" id="pass" required minlength="8">
+        </p>
+        <input type="date" name="idate" id="date" > 
+        <p>
+            <input type="submit" value="Enviar">
+            <input type="reset" value="Limpar">
+        </p>
+    </form>
+</body>
+</html>
