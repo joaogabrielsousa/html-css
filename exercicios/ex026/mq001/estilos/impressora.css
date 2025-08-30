@@ -1,8 +1,6 @@
 @charset "utf-8";
 
-/*
-estilo para impressoras
-*/
+/* estilo para impressoras */
 
 * {
     margin: 10px;
@@ -14,4 +12,10 @@ html{
     line-height: 1.5em
     
     ;
+}
+menu {
+    display: none;
+}
+article::after{
+    content: 'siga no insta @sousa_jg';
 }
